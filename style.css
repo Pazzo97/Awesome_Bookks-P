@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+hr {
+  width: 140px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.book-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.title-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  text-transform: capitalize;
+}
+
+.title-author > * {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.remove {
+  box-shadow: 3px 3px #000;
+  padding: 5px;
+  font-size: 18px;
+  border: 2px solid #000;
+  width: 102px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 30px;
+}
+
+.form-block {
+  display: flex;
+  justify-content: center;
+}
+
+.form-block button {
+  box-shadow: 3px 3px #000;
+  padding: 5px;
+  font-size: 18px;
+  width: 50px;
+  border: 2px solid #000;
+  font-weight: 300;
+  float: right;
+}
+
+#title,
+#author {
+  border: 2px solid #000;
+  height: 25px;
+  width: 270px;
+}
