@@ -10,19 +10,27 @@
 </head>
 
 <body>
-
-  <h1>All awesome books</h1>
-
+  <header>
+   
+    <nav class="nav-list">
+      <h1>All awesome books</h1>
+      <ul class="nav-items">
+        <li> <a href="#" id="list-nav" class="list-link"> Book List</a> </li>
+        <li><a href="#" id="add-nav" class="add-link"> Add new</a></li>
+        <li><a href="#" id="contact-nav" class="contact-link"> Contact</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+  <div class="time"></div>
   <section id="book-list" class="books">
-
-    
-
-
   </section>
-  <hr>
-  <h2>Add a new book</h2>
+  
+  <section>
+  <div class="new-book">
+    <h2>Add a new book</h2>
 
-  <div class="form-block">
+   <div class="form-block">
 
     <form id="add-book">
       <div class="book-form">
@@ -32,16 +40,46 @@
         <input id="author" type="text" placeholder="Author" required>
         <br>
         <br>
-      </div>
+      
 
       <div class="form-button">
-        <button type="submit">Add</button>
+        <button type="submit" > Add</button>
+
+      </div>
       </div>
     </form>
-
   </div>
+  </div>
+  </section>
+  <section>
 
-  <script src="refactor.js"></script>
+    <div class="contact">
+
+      <h2>contact information</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis totam quidem cupiditate soluta labore alias.</p>
+
+      <div class="contact-list">
+        <ul>
+          <li>Our email <a>awesomebooks@books.com</a> </li>
+          <li>Phone number: 00000000000</li>
+          <li>Our address: Howard Street Oswego NY 13126 USA</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="footer">
+      <p>Copyright &copy; 2022 awesomebooks.com All rights reserved</p>
+    </div>
+
+  </section>
+
+
+  <script src="index.js"></script>
 </body>
-
 </html>
