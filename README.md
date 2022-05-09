@@ -1,6 +1,6 @@
 # Awesome_Bookks-P
 
->This project is about Awesome books. It shows author and tilte of the book. You can add, delete and edit the book.
+>This project is about Awesome books. It shows author of the book and tilte of the book. You can add, delete and edit the book and also you can view the list of already added books which is stored locally.
 
 ## Built Withhttps:
 
